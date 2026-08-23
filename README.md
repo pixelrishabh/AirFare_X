@@ -113,7 +113,7 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 🤖 Teammate ML Model Integration Guide
+## 🤖 ML Model Integration Guide
 
 To plug a trained machine learning fare prediction model into AirFareX:
 
