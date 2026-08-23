@@ -1,0 +1,9 @@
+origin,destination,origin_city,destination_city,distance_km,avg_fare,min_fare,max_fare,weekly_change
+DEL,BOM,Delhi,Mumbai,1148,5650,4100,11200,2.4
+DEL,BLR,Delhi,Bengaluru,1740,6890,4800,13500,4.1
+BOM,BLR,Mumbai,Bengaluru,842,4920,3400,9800,1.8
+DEL,CCU,Delhi,Kolkata,1305,5980,4200,11800,-1.2
+BLR,HYD,Bengaluru,Hyderabad,500,3850,2600,7800,0.5
+MAA,DEL,Chennai,Delhi,1760,6720,4600,13200,3.2
+DEL,HYD,Delhi,Hyderabad,1250,5450,3900,10900,1.5
+BOM,DEL,Mumbai,Delhi,1148,5720,4150,11400,2.2

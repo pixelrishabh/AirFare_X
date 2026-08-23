@@ -1,0 +1,41 @@
+origin,destination,airline,airline_code,avg_fare,flight_count
+DEL,BOM,IndiGo,6E,5367.5,9
+DEL,BOM,Air India,AI,6102.0,4
+DEL,BOM,Air India Express,IX,5537.0,5
+DEL,BOM,Akasa Air,QP,5537.0,5
+DEL,BOM,SpiceJet,SG,5537.0,14
+DEL,BLR,IndiGo,6E,6545.5,6
+DEL,BLR,Air India,AI,7441.2,8
+DEL,BLR,Air India Express,IX,6752.2,3
+DEL,BLR,Akasa Air,QP,6752.2,9
+DEL,BLR,SpiceJet,SG,6752.2,3
+BOM,BLR,IndiGo,6E,4674.0,6
+BOM,BLR,Air India,AI,5313.6,13
+BOM,BLR,Air India Express,IX,4821.6,9
+BOM,BLR,Akasa Air,QP,4821.6,11
+BOM,BLR,SpiceJet,SG,4821.6,11
+DEL,CCU,IndiGo,6E,5681.0,11
+DEL,CCU,Air India,AI,6458.4,9
+DEL,CCU,Air India Express,IX,5860.4,14
+DEL,CCU,Akasa Air,QP,5860.4,3
+DEL,CCU,SpiceJet,SG,5860.4,12
+BLR,HYD,IndiGo,6E,3657.5,5
+BLR,HYD,Air India,AI,4158.0,11
+BLR,HYD,Air India Express,IX,3773.0,10
+BLR,HYD,Akasa Air,QP,3773.0,8
+BLR,HYD,SpiceJet,SG,3773.0,4
+MAA,DEL,IndiGo,6E,6384.0,10
+MAA,DEL,Air India,AI,7257.6,7
+MAA,DEL,Air India Express,IX,6585.6,9
+MAA,DEL,Akasa Air,QP,6585.6,9
+MAA,DEL,SpiceJet,SG,6585.6,6
+DEL,HYD,IndiGo,6E,5177.5,12
+DEL,HYD,Air India,AI,5886.0,4
+DEL,HYD,Air India Express,IX,5341.0,9
+DEL,HYD,Akasa Air,QP,5341.0,5
+DEL,HYD,SpiceJet,SG,5341.0,8
+BOM,DEL,IndiGo,6E,5434.0,9
+BOM,DEL,Air India,AI,6177.6,6
+BOM,DEL,Air India Express,IX,5605.6,12
+BOM,DEL,Akasa Air,QP,5605.6,5
+BOM,DEL,SpiceJet,SG,5605.6,9

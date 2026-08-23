@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
-from app.api.routes import scraper, index, ml
+from app.api.routes import scraper, index, ml, dashboard
 
 app = FastAPI(title="AirFareX Backend")
 app.add_middleware(
@@ -12,6 +12,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(dashboard.router, prefix="/api", tags=["dashboard"])
 app.include_router(scraper.router, prefix="/api/scraper", tags=["scraper"])
 app.include_router(index.router, prefix="/api/index", tags=["index"])
 app.include_router(ml.router, prefix="/api/ml", tags=["ml"])

@@ -1,0 +1,61 @@
+origin,destination,airline,booking_window,fare,source
+DEL,BOM,IndiGo,1,9763.2,IndiGo.com
+DEL,BOM,IndiGo,7,7322.4,IndiGo.com
+DEL,BOM,IndiGo,15,5424.0,IndiGo.com
+DEL,BOM,IndiGo,30,4447.68,IndiGo.com
+DEL,BOM,IndiGo,45,4068.0,IndiGo.com
+DEL,BOM,Air India,1,10678.5,AirIndia.in
+DEL,BOM,Air India,7,8008.88,AirIndia.in
+DEL,BOM,Air India,15,5932.5,AirIndia.in
+DEL,BOM,Air India,30,4864.65,AirIndia.in
+DEL,BOM,Air India,45,4449.38,AirIndia.in
+DEL,BOM,Air India Express,1,10678.5,MakeMyTrip
+DEL,BOM,Air India Express,7,8008.88,MakeMyTrip
+DEL,BOM,Air India Express,15,5932.5,MakeMyTrip
+DEL,BOM,Air India Express,30,4864.65,MakeMyTrip
+DEL,BOM,Air India Express,45,4449.38,MakeMyTrip
+DEL,BLR,IndiGo,1,11905.92,IndiGo.com
+DEL,BLR,IndiGo,7,8929.44,IndiGo.com
+DEL,BLR,IndiGo,15,6614.4,IndiGo.com
+DEL,BLR,IndiGo,30,5423.81,IndiGo.com
+DEL,BLR,IndiGo,45,4960.8,IndiGo.com
+DEL,BLR,Air India,1,13022.1,AirIndia.in
+DEL,BLR,Air India,7,9766.58,AirIndia.in
+DEL,BLR,Air India,15,7234.5,AirIndia.in
+DEL,BLR,Air India,30,5932.29,AirIndia.in
+DEL,BLR,Air India,45,5425.88,AirIndia.in
+DEL,BLR,Air India Express,1,13022.1,MakeMyTrip
+DEL,BLR,Air India Express,7,9766.58,MakeMyTrip
+DEL,BLR,Air India Express,15,7234.5,MakeMyTrip
+DEL,BLR,Air India Express,30,5932.29,MakeMyTrip
+DEL,BLR,Air India Express,45,5425.88,MakeMyTrip
+BOM,BLR,IndiGo,1,8501.76,IndiGo.com
+BOM,BLR,IndiGo,7,6376.32,IndiGo.com
+BOM,BLR,IndiGo,15,4723.2,IndiGo.com
+BOM,BLR,IndiGo,30,3873.02,IndiGo.com
+BOM,BLR,IndiGo,45,3542.4,IndiGo.com
+BOM,BLR,Air India,1,9298.8,AirIndia.in
+BOM,BLR,Air India,7,6974.1,AirIndia.in
+BOM,BLR,Air India,15,5166.0,AirIndia.in
+BOM,BLR,Air India,30,4236.12,AirIndia.in
+BOM,BLR,Air India,45,3874.5,AirIndia.in
+BOM,BLR,Air India Express,1,9298.8,MakeMyTrip
+BOM,BLR,Air India Express,7,6974.1,MakeMyTrip
+BOM,BLR,Air India Express,15,5166.0,MakeMyTrip
+BOM,BLR,Air India Express,30,4236.12,MakeMyTrip
+BOM,BLR,Air India Express,45,3874.5,MakeMyTrip
+DEL,CCU,IndiGo,1,10333.44,IndiGo.com
+DEL,CCU,IndiGo,7,7750.08,IndiGo.com
+DEL,CCU,IndiGo,15,5740.8,IndiGo.com
+DEL,CCU,IndiGo,30,4707.46,IndiGo.com
+DEL,CCU,IndiGo,45,4305.6,IndiGo.com
+DEL,CCU,Air India,1,11302.2,AirIndia.in
+DEL,CCU,Air India,7,8476.65,AirIndia.in
+DEL,CCU,Air India,15,6279.0,AirIndia.in
+DEL,CCU,Air India,30,5148.78,AirIndia.in
+DEL,CCU,Air India,45,4709.25,AirIndia.in
+DEL,CCU,Air India Express,1,11302.2,MakeMyTrip
+DEL,CCU,Air India Express,7,8476.65,MakeMyTrip
+DEL,CCU,Air India Express,15,6279.0,MakeMyTrip
+DEL,CCU,Air India Express,30,5148.78,MakeMyTrip
+DEL,CCU,Air India Express,45,4709.25,MakeMyTrip

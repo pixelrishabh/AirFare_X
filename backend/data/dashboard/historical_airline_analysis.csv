@@ -1,0 +1,6 @@
+airline_code,airline,avg_fare,min_fare,max_fare,market_share,on_time_perf
+6E,IndiGo,5420,3800,12500,62.4,94.2
+AI,Air India,6150,4200,14800,24.8,88.5
+IX,Air India Express,4890,3400,10200,6.2,89.1
+QP,Akasa Air,5120,3600,11000,4.5,91.4
+SG,SpiceJet,5310,3500,11800,2.1,84.7

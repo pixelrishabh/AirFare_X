@@ -1,0 +1,5 @@
+origin,destination,airline,date,observed_fare,baseline_fare,anomaly_reason
+DEL,BLR,IndiGo,2026-08-28,12400,6890,Festival Surge (+80%)
+BOM,DEL,Air India,2026-08-27,13800,5720,Capacity Constraint (+141%)
+DEL,CCU,SpiceJet,2026-08-26,3200,5980,Flash Discount (-46%)
+BLR,HYD,Akasa Air,2026-08-25,7900,3850,Monsoon Disruption (+105%)

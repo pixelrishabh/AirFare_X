@@ -1,6 +1,20 @@
 from fastapi import Header, HTTPException
 from app.core.supabase_client import supabase_admin
 
+async def require_authenticated(authorization: str = Header(...)):
+    if not authorization:
+        raise HTTPException(status_code=401, detail="Missing Authorization header")
+    token = authorization.replace("Bearer ", "").strip()
+    try:
+        user_resp = supabase_admin.auth.get_user(token)
+        if not user_resp or not user_resp.user:
+            raise HTTPException(status_code=401, detail="Invalid or expired token")
+        return user_resp.user
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=401, detail=f"Authentication failed: {str(e)}")
+
 class RoleChecker:
     def __init__(self, allowed_roles: list[str]):
         self.allowed_roles = allowed_roles

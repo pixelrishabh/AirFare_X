@@ -1,0 +1,5 @@
+metric,value,unit,benchmark_status
+MAE (Mean Absolute Error),1.42,index points,Passed (<2.0)
+RMSE (Root Mean Square Error),1.86,index points,Passed (<2.5)
+MAPE (Mean Absolute % Error),1.12%,%,Passed (<2.0%)
+Directional Accuracy,94.6%,%,Passed (>90%)
