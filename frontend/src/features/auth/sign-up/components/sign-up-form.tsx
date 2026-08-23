@@ -22,20 +22,21 @@ import { PasswordInput } from '@/components/password-input'
 
 const formSchema = z
   .object({
-    email: z.email({
-      error: (iss) =>
-        iss.input === '' ? 'Please enter your email.' : undefined,
-    }),
+    email: z
+      .string()
+      .min(1, 'Please enter your email.')
+      .email('Please enter a valid email address.'),
     password: z
       .string()
       .min(1, 'Please enter your password.')
-      .min(7, 'Password must be at least 7 characters long.'),
+      .min(6, 'Password must be at least 6 characters long.'),
     confirmPassword: z.string().min(1, 'Please confirm your password.'),
   })
   .refine((data) => data.password === data.confirmPassword, {
     message: "Passwords don't match.",
     path: ['confirmPassword'],
   })
+
 
 export function SignUpForm({
   className,
