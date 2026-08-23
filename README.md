@@ -1,119 +1,129 @@
-# Shadcn Admin Dashboard
+# AirFareX — Real-Time Indian Airfare Price Index & Intelligence Platform
 
-Admin Dashboard UI crafted with Shadcn and Vite. Built with responsiveness and accessibility in mind.
+> **AirFareX** is a high-precision, real-time airfare analytics and price indexing system designed specifically for the Indian domestic aviation market. It tracks pricing volatility across major corridors (DEL, BOM, BLR, HYD, CCU, MAA) and carriers (IndiGo, Air India, Air India Express, Akasa Air, SpiceJet), generating a standardized airfare index (**APIx**) anchored to a January 2026 baseline.
 
-![alt text](public/images/shadcn-admin.png)
+---
 
-[![Sponsored by Clerk](https://img.shields.io/badge/Sponsored%20by-Clerk-5b6ee1?logo=clerk)](https://go.clerk.com/GttUAaK)
+## 🏗️ Repository Architecture
 
-I've been creating dashboard UIs at work and for my personal projects. I always wanted to make a reusable collection of dashboard UI for future projects; and here it is now. While I've created a few custom components, some of the code is directly adapted from ShadcnUI examples.
+The project is cleanly modularized into frontend dashboard, FastAPI backend microservice, and Supabase database definitions:
 
-> This is not a starter project (template) though. I'll probably make one in the future.
-
-## Features
-
-- Light/dark mode
-- Responsive
-- Accessible
-- With built-in Sidebar component
-- Global search command
-- 10+ pages
-- Extra custom components
-- RTL support
-
-<details>
-<summary>Customized Components (click to expand)</summary>
-
-This project uses Shadcn UI components, but some have been slightly modified for better RTL (Right-to-Left) support and other improvements. These customized components differ from the original Shadcn UI versions.
-
-If you want to update components using the Shadcn CLI (e.g., `npx shadcn@latest add <component>`), it's generally safe for non-customized components. For the listed customized ones, you may need to manually merge changes to preserve the project's modifications and avoid overwriting RTL support or other updates.
-
-> If you don't require RTL support, you can safely update the 'RTL Updated Components' via the Shadcn CLI, as these changes are primarily for RTL compatibility. The 'Modified Components' may have other customizations to consider.
-
-### Modified Components
-
-- scroll-area
-- sonner
-- separator
-
-### RTL Updated Components
-
-- alert-dialog
-- calendar
-- command
-- dialog
-- dropdown-menu
-- select
-- table
-- sheet
-- sidebar
-- switch
-
-**Notes:**
-
-- **Modified Components**: These have general updates, potentially including RTL adjustments.
-- **RTL Updated Components**: These have specific changes for RTL language support (e.g., layout, positioning).
-- For implementation details, check the source files in `src/components/ui/`.
-- All other Shadcn UI components in the project are standard and can be safely updated via the CLI.
-
-</details>
-
-## Tech Stack
-
-**UI:** [ShadcnUI](https://ui.shadcn.com) (TailwindCSS + RadixUI)
-
-**Build Tool:** [Vite](https://vitejs.dev/)
-
-**Routing:** [TanStack Router](https://tanstack.com/router/latest)
-
-**Type Checking:** [TypeScript](https://www.typescriptlang.org/)
-
-**Linting/Formatting:** [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
-
-**Icons:** [Lucide Icons](https://lucide.dev/icons/), [Tabler Icons](https://tabler.io/icons) (Brand icons only)
-
-**Auth (partial):** [Clerk](https://go.clerk.com/GttUAaK)
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/satnaing/shadcn-admin.git
+```
+AirFareX/
+├── frontend/                  # React 18 + Vite + TypeScript + shadcn/ui Frontend Application
+│   ├── src/
+│   │   ├── components/        # Shared UI & AirfarexHeader components
+│   │   ├── features/          # Feature modules (overview, airfare-index, route-analysis, backtesting, etc.)
+│   │   ├── lib/               # Supabase SDK client, backend API client, require-role guards
+│   │   ├── routes/            # TanStack Router file-based route definitions
+│   │   ├── services/          # Real Supabase table API service layer
+│   │   └── stores/            # Zustand session & role auth store
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── .env.example
+│
+├── backend/                   # FastAPI + Python 3.11+ Microservice Backend
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── deps.py        # Supabase JWT authentication & role-checker dependency
+│   │   │   └── routes/        # API route handlers (scraper, index, ml)
+│   │   ├── core/              # Supabase Admin Service-Role client & settings
+│   │   ├── index_calc/        # Base-period weighted index calculation engine
+│   │   ├── scraper/           # Scraper ingestion job & pipeline scheduler
+│   │   └── ml/                # ML model slot & predictor interface
+│   ├── requirements.txt
+│   ├── requirements-ml.txt
+│   └── .env.example
+│
+└── supabase/                  # Database DDL & RLS Policies
+    └── step7_schema.sql       # Reference tables, fare quotes, RLS policies, & aggregate view
 ```
 
-Go to the project directory
+---
+
+## ✨ Key Features & Capability Matrix
+
+- 📈 **APIx Price Index**: Computes real weighted airfare index series ($100.0$ baseline) against domestic fare quotes.
+- 🛫 **Corridor & Airline Analytics**: Interactive heatmaps and pricing matrix across 25+ top Indian flight routes and 5 major carriers.
+- 🔐 **Role-Based Access Control (RBAC)**: Supabase Authentication supporting `ADMIN`, `ANALYST`, and `VIEWER` roles.
+  - `/backtesting` route gated to `ADMIN` and `ANALYST` roles.
+  - Data Explorer CSV Export button gated to authorized roles.
+  - Security-definer aggregate views (`route_fare_summary`) for `VIEWER` access.
+- ⚡ **FastAPI Backend Pipeline**:
+  - `POST /api/scraper/run`: Trigger synthetic fare quote ingestion.
+  - `POST /api/index/compute`: Compute moving weighted APIx index relative to base snapshot.
+  - `POST /api/ml/predict`: Isolated interface ready for trained ML prediction models (`.pkl` / `.onnx`).
+
+---
+
+## 🚀 Quick Start Guide
+
+### 1. Database Setup (Supabase)
+
+1. Open your [Supabase Dashboard](https://supabase.com/dashboard).
+2. Navigate to **SQL Editor**.
+3. Copy and run the contents of [`supabase/step7_schema.sql`](file:///c:/Users/Rishabh/OneDrive/Desktop/sih26/supabase/step7_schema.sql).
+
+---
+
+### 2. Backend Setup (FastAPI Microservice)
 
 ```bash
-  cd shadcn-admin
-```
+# 1. Navigate to backend directory
+cd backend
 
-Install dependencies
+# 2. Create and activate a Python virtual environment
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+# source venv/bin/activate
+
+# 3. Install backend dependencies
+pip install -r requirements.txt
+
+# 4. Configure environment variables
+cp .env.example .env
+# Edit .env and supply your SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY
+
+# 5. Start the FastAPI development server
+python -m uvicorn app.main:app --reload --port 8000
+```
+Backend Health Check: Open [http://localhost:8000/health](http://localhost:8000/health) → returns `{"status": "ok"}`.
+
+---
+
+### 3. Frontend Setup (React + Vite)
 
 ```bash
-  pnpm install
+# 1. Navigate to frontend directory
+cd frontend
+
+# 2. Install Node dependencies
+npm install
+
+# 3. Configure environment variables
+cp .env.example .env
+# Verify VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY match your Supabase project
+
+# 4. Start the Vite development server
+npm run dev
 ```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Start the server
+---
 
-```bash
-  pnpm run dev
-```
+## 🤖 Teammate ML Model Integration Guide
 
-## Sponsoring this project ❤️
+To plug a trained machine learning fare prediction model into AirFareX:
 
-If you find this project helpful or use this in your own work, consider [sponsoring me](https://github.com/sponsors/satnaing) to support development and maintenance. You can [buy me a coffee](https://buymeacoffee.com/satnaing) as well. Don’t worry, every penny helps. Thank you! 🙏
+1. Drop your trained model file (`fare_predictor.pkl`, `.onnx`, or `.pt`) into `backend/app/ml/models/`.
+2. Add any ML framework dependencies (e.g. `scikit-learn`, `joblib`, `torch`) to `backend/requirements-ml.txt`.
+3. Load the model inside `Predictor._load_if_available()` in `backend/app/ml/predictor.py`.
+4. Implement `Predictor.predict()` logic. **No frontend or route changes required!**
 
-For questions or sponsorship inquiries, feel free to reach out at [satnaingdev@gmail.com](mailto:satnaingdev@gmail.com).
+---
 
-### Current Sponsor
+## 📜 License & Acknowledgments
 
-- [Clerk](https://go.clerk.com/GttUAaK) - authentication and user management for the modern web
-
-## Author
-
-Crafted with 🤍 by [@satnaing](https://github.com/satnaing)
-
-## License
-
-Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+Built for the **Smart India Hackathon (SIH 2026)**. Powered by React, Vite, shadcn/ui, FastAPI, and Supabase.
