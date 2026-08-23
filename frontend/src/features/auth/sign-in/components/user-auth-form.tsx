@@ -82,7 +82,7 @@ export function UserAuthForm({
         password: data.password,
       })
 
-      // 2. Smart fallback: If account does not exist yet, auto-register & sign in
+      // 2. Smart fallback: If account does not exist, auto-register
       if (error && (error.message.includes('Invalid login credentials') || error.status === 400)) {
         toast.info('Account not found — creating new account for you...')
         const { data: signUpData, error: signUpErr } = await supabase.auth.signUp({
@@ -100,7 +100,6 @@ export function UserAuthForm({
         }
 
         if (signUpData.user) {
-          // Retry login after auto-registration
           const { data: retryAuth, error: retryErr } = await supabase.auth.signInWithPassword({
             email: data.email,
             password: data.password,
@@ -114,6 +113,8 @@ export function UserAuthForm({
           authData = retryAuth
           error = null
         }
+      }
+
       if (error) {
         if (error.message.includes('Email not confirmed')) {
           toast.error(
@@ -126,12 +127,12 @@ export function UserAuthForm({
         return
       }
 
-
       if (authData?.user && authData?.session) {
         await handleLoginSuccess(authData.user)
       }
-    } catch (err: any) {
-      toast.error(err?.message || 'Failed to sign in')
+    } catch (err: unknown) {
+      const msg = err instanceof Error ? err.message : 'Failed to sign in'
+      toast.error(msg)
     } finally {
       setIsLoading(false)
     }
@@ -142,7 +143,6 @@ export function UserAuthForm({
     form.setValue('password', 'password123')
     form.handleSubmit(onSubmit)()
   }
-
 
   return (
     <Form {...form}>
@@ -231,7 +231,6 @@ export function UserAuthForm({
             <Eye className='size-3 text-muted-foreground' /> Viewer
           </Button>
         </div>
-
       </form>
     </Form>
   )
