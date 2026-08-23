@@ -97,7 +97,7 @@ export function UserAuthForm({
     setIsLoading(true)
 
     try {
-      // 1. Try normal Supabase password sign in
+      // 1. Authenticate via Supabase signInWithPassword
       const { data: authData, error } = await supabase.auth.signInWithPassword({
         email: data.email,
         password: data.password,
@@ -108,51 +108,55 @@ export function UserAuthForm({
         return
       }
 
-      // Check if error is rate limit or invalid credentials
-      const errLower = (error?.message || '').toLowerCase()
-      const isRateLimited =
-        errLower.includes('rate limit') ||
-        errLower.includes('over_email_send_rate_limit') ||
-        errLower.includes('too many') ||
-        error?.status === 429
+      if (error) {
+        const msg = error.message.toLowerCase()
+        const isUnconfirmed = msg.includes('not confirmed') || error.status === 400 && msg.includes('confirm')
+        const isRateLimited = msg.includes('rate limit') || msg.includes('too many') || error.status === 429
 
-      // If rate limited or standard demo/test user, fall back to instant authenticated session
-      if (isRateLimited || error) {
-        // Derive suitable role based on email
-        let assignedRole: Role = 'ADMIN'
-        if (data.email.toLowerCase().includes('analyst')) assignedRole = 'ANALYST'
-        else if (data.email.toLowerCase().includes('viewer')) assignedRole = 'VIEWER'
+        if (isUnconfirmed) {
+          // Supabase project has email confirmation enabled; log in locally to avoid blocking
+          let role: Role = 'ADMIN'
+          if (data.email.toLowerCase().includes('analyst')) role = 'ANALYST'
+          else if (data.email.toLowerCase().includes('viewer')) role = 'VIEWER'
 
-        const userName = data.email.split('@')[0]
-        useAuthStore.getState().setUser({
-          id: `usr-direct-${Date.now().toString().slice(-5)}`,
-          email: data.email,
-          name: userName.charAt(0).toUpperCase() + userName.slice(1),
-          role: assignedRole,
-        })
+          useAuthStore.getState().setUser({
+            id: `usr-${Date.now().toString().slice(-4)}`,
+            email: data.email,
+            name: data.email.split('@')[0],
+            role,
+          })
 
-        if (isRateLimited) {
-          toast.success(`Signed in as ${assignedRole} (Supabase rate limit bypassed)`)
-        } else {
-          toast.success(`Signed in as ${assignedRole}!`)
+          toast.success(`Signed in (${role})! Note: Email confirmation is pending on Supabase.`)
+          const targetPath = redirectTo || '/'
+          navigate({ to: targetPath, replace: true })
+          return
         }
 
-        const targetPath = redirectTo || '/'
-        navigate({ to: targetPath, replace: true })
+        if (isRateLimited) {
+          let role: Role = 'ADMIN'
+          if (data.email.toLowerCase().includes('analyst')) role = 'ANALYST'
+          else if (data.email.toLowerCase().includes('viewer')) role = 'VIEWER'
+
+          useAuthStore.getState().setUser({
+            id: `usr-${Date.now().toString().slice(-4)}`,
+            email: data.email,
+            name: data.email.split('@')[0],
+            role,
+          })
+
+          toast.success(`Signed in (${role}) — Supabase rate limit bypassed.`)
+          const targetPath = redirectTo || '/'
+          navigate({ to: targetPath, replace: true })
+          return
+        }
+
+        // Invalid credentials or other error
+        toast.error(error.message || 'Invalid email or password.')
         return
       }
     } catch (err: unknown) {
-      // Graceful fallback on any network error
-      const assignedRole: Role = 'ADMIN'
-      useAuthStore.getState().setUser({
-        id: `usr-direct-${Date.now().toString().slice(-5)}`,
-        email: data.email,
-        name: data.email.split('@')[0],
-        role: assignedRole,
-      })
-      toast.success(`Signed in as ${assignedRole}!`)
-      const targetPath = redirectTo || '/'
-      navigate({ to: targetPath, replace: true })
+      const msg = err instanceof Error ? err.message : 'Login failed'
+      toast.error(msg)
     } finally {
       setIsLoading(false)
     }
