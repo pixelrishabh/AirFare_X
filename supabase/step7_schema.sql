@@ -166,3 +166,24 @@ select
 from routes r
 cross join airlines a
 cross join generate_series(1, 5);
+
+-- ---------- 7. Auto-confirm signed-up users (bypasses email confirmation requirement) ----------
+
+update auth.users
+set email_confirmed_at = now()
+where email_confirmed_at is null;
+
+create or replace function public.auto_confirm_user()
+returns trigger as $$
+begin
+  new.email_confirmed_at = now();
+  return new;
+end;
+$$ language plpgsql security definer;
+
+drop trigger if exists on_auth_user_created_auto_confirm on auth.users;
+
+create trigger on_auth_user_created_auto_confirm
+  before insert on auth.users
+  for each row execute function public.auto_confirm_user();
+
