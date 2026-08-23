@@ -114,11 +114,18 @@ export function UserAuthForm({
           authData = retryAuth
           error = null
         }
-      } else if (error) {
-        toast.error(error.message || 'Invalid email or password')
+      if (error) {
+        if (error.message.includes('Email not confirmed')) {
+          toast.error(
+            'Supabase Email Confirmation Required: Run UPDATE auth.users SET email_confirmed_at = NOW(); in Supabase SQL Editor to enable 1-click login.'
+          )
+        } else {
+          toast.error(error.message || 'Invalid email or password')
+        }
         setIsLoading(false)
         return
       }
+
 
       if (authData?.user && authData?.session) {
         await handleLoginSuccess(authData.user)
