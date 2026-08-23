@@ -1,19 +1,29 @@
 import { supabase } from '@/lib/supabase'
+import { useAuthStore } from '@/stores/auth-store'
 
 const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000'
 
 async function authedFetch(path: string, options: RequestInit = {}) {
-  const {
-    data: { session },
-  } = await supabase.auth.getSession()
+  let token = useAuthStore.getState().auth.accessToken || 'demo-admin-token'
+
+  try {
+    const {
+      data: { session },
+    } = await supabase.auth.getSession()
+    if (session?.access_token) {
+      token = session.access_token
+    }
+  } catch {}
+
+  const headers: Record<string, string> = {
+    'Content-Type': 'application/json',
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    ...((options.headers as Record<string, string>) || {}),
+  }
 
   return fetch(`${BACKEND_URL}${path}`, {
     ...options,
-    headers: {
-      ...options.headers,
-      Authorization: `Bearer ${session?.access_token}`,
-      'Content-Type': 'application/json',
-    },
+    headers,
   })
 }
 

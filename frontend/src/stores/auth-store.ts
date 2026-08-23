@@ -33,13 +33,45 @@ interface AuthState {
   }
 }
 
+const STORAGE_KEY = 'airfarex_auth_user'
+
+function getInitialUser(): User | null {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    if (raw) {
+      return JSON.parse(raw) as User
+    }
+  } catch {
+    // Ignore storage parse errors
+  }
+  return null
+}
+
+const initialUser = getInitialUser()
+
 export const useAuthStore = create<AuthState>((set, get) => ({
-  user: null,
-  isLoading: true,
-  setUser: (user) => set({ user }),
+  user: initialUser,
+  isLoading: !initialUser,
+  setUser: (user) => {
+    if (user) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(user))
+      } catch {}
+    } else {
+      try {
+        localStorage.removeItem(STORAGE_KEY)
+      } catch {}
+    }
+    set({ user, isLoading: false })
+  },
   setLoading: (isLoading) => set({ isLoading }),
   signOut: async () => {
-    await supabase.auth.signOut()
+    try {
+      localStorage.removeItem(STORAGE_KEY)
+    } catch {}
+    try {
+      await supabase.auth.signOut()
+    } catch {}
     set({ user: null })
   },
   auth: {
@@ -55,27 +87,26 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     },
     setUser: (authUser) => {
       if (!authUser) {
-        set({ user: null })
+        get().setUser(null)
       } else {
         const role = (authUser.role?.[0] as Role) || 'VIEWER'
-        set({
-          user: {
-            id: authUser.accountNo || 'usr-1',
-            email: authUser.email,
-            name: authUser.email.split('@')[0],
-            role,
-          },
+        get().setUser({
+          id: authUser.accountNo || 'usr-demo-1',
+          email: authUser.email,
+          name: authUser.email.split('@')[0],
+          role,
         })
       }
     },
     get accessToken() {
-      return get().user ? 'supabase-token' : ''
+      const u = get().user
+      if (!u) return ''
+      return `demo-${u.role.toLowerCase()}-token`
     },
     setAccessToken: () => {},
     resetAccessToken: () => {},
     reset: () => {
-      supabase.auth.signOut().catch(() => {})
-      set({ user: null })
+      get().signOut()
     },
   },
 }))

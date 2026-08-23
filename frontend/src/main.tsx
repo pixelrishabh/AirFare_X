@@ -23,35 +23,56 @@ import type { Session } from '@supabase/supabase-js'
 
 async function syncUserFromSession(session: Session | null) {
   if (!session) {
-    useAuthStore.getState().setUser(null)
+    // If no Supabase session exists, check if we already have a persisted local/demo user
+    const existing = useAuthStore.getState().user
+    if (!existing) {
+      useAuthStore.getState().setUser(null)
+    }
     return
   }
 
-  const { data: profile } = await supabase
-    .from('profiles')
-    .select('name, role')
-    .eq('id', session.user.id)
-    .single()
+  try {
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('name, role')
+      .eq('id', session.user.id)
+      .single()
 
-  const role = profile?.role ?? session.user.user_metadata?.role ?? 'VIEWER'
+    const role = profile?.role ?? session.user.user_metadata?.role ?? 'VIEWER'
 
-  useAuthStore.getState().setUser({
-    id: session.user.id,
-    email: session.user.email!,
-    name: profile?.name ?? session.user.user_metadata?.name ?? session.user.email!,
-    role: role as any,
-  })
+    useAuthStore.getState().setUser({
+      id: session.user.id,
+      email: session.user.email!,
+      name: profile?.name ?? session.user.user_metadata?.name ?? session.user.email!,
+      role: role as any,
+    })
+  } catch {
+    const role = session.user.user_metadata?.role ?? 'VIEWER'
+    useAuthStore.getState().setUser({
+      id: session.user.id,
+      email: session.user.email!,
+      name: session.user.user_metadata?.name ?? session.user.email!,
+      role: role as any,
+    })
+  }
 }
 
 export async function initAuth() {
-  const {
-    data: { session },
-  } = await supabase.auth.getSession()
-  await syncUserFromSession(session)
-  useAuthStore.getState().setLoading(false)
+  try {
+    const {
+      data: { session },
+    } = await supabase.auth.getSession()
+    await syncUserFromSession(session)
+  } catch {
+    // If Supabase network fails or is rate-limited, keep local persisted user session
+  } finally {
+    useAuthStore.getState().setLoading(false)
+  }
 
   supabase.auth.onAuthStateChange(async (_event, session) => {
-    await syncUserFromSession(session)
+    if (session) {
+      await syncUserFromSession(session)
+    }
     useAuthStore.getState().setLoading(false)
   })
 }
