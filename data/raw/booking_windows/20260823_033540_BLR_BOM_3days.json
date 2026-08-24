@@ -1,0 +1,1521 @@
+{
+  "search_metadata": {
+    "id": "6a8a1d308c60cac3aa0d2499",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/AUgbG9ckt7sFc-Zkhfw5CQ/6a8a1d308c60cac3aa0d2499.json",
+    "markdown_endpoint": "https://serpapi.com/searches/AUgbG9ckt7sFc-Zkhfw5CQ/6a8a1d308c60cac3aa0d2499.md",
+    "created_at": "2026-08-22 22:05:36 UTC",
+    "processed_at": "2026-08-22 22:05:36 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=in&curr=INR&tfs=CBwQAhoeEgoyMDI2LTA4LTI2agcIARIDQkxScgcIARIDQk9NQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/AUgbG9ckt7sFc-Zkhfw5CQ/6a8a1d308c60cac3aa0d2499.html",
+    "prettify_html_file": "https://serpapi.com/searches/AUgbG9ckt7sFc-Zkhfw5CQ/6a8a1d308c60cac3aa0d2499.prettify",
+    "total_time_taken": 3.47
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "in",
+    "type": "2",
+    "departure_id": "BLR",
+    "arrival_id": "BOM",
+    "outbound_date": "2026-08-26",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "INR"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 14:20"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 16:05"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5351",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 7172,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVek5URWFDZ2lFT0JBQUdnTkpUbEk0SEhER09nPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTM1MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 00:45"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 02:50"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2498",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 7783,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJME9UZ2FDZ2puUEJBQUdnTkpUbEk0SEhERlB3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjQ5OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 11:20"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 13:10"
+          },
+          "duration": 110,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1130",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 74 kg"
+          ]
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 74000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 7
+      },
+      "price": 7932,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pSVURFeE16QWFDZ2o4UFJBQUdnTkpUbEk0SEhEZ1FBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIlFQIiwiMTEzMCJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 15:15"
+          },
+          "arrival_airport": {
+            "name": "Goa Dabolim International Airport",
+            "id": "GOI",
+            "time": "2026-08-26 16:35"
+          },
+          "duration": 80,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6753",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 48 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Goa Dabolim International Airport",
+            "id": "GOI",
+            "time": "2026-08-26 18:40"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 20:05"
+          },
+          "duration": 85,
+          "airplane": "Airbus A320",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5242",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 57 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 125,
+          "name": "Goa Dabolim International Airport",
+          "id": "GOI"
+        }
+      ],
+      "total_duration": 290,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 52
+      },
+      "price": 6836,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZzAyUlRZM05UTjhOa1UxTWpReUdnb0l0RFVRQUJvRFNVNVNPQnh3NXpjPSIsW1siQkxSIiwiMjAyNi0wOC0yNiIsIkdPSSIsbnVsbCwiNkUiLCI2NzUzIl0sWyJHT0kiLCIyMDI2LTA4LTI2IiwiQk9NIixudWxsLCI2RSIsIjUyNDIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 11:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 13:20"
+          },
+          "duration": 110,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5069",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 7487,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVd05qa2FDZ2kvT2hBQUdnTkpUbEk0SEhDUFBRPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTA2OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 13:00"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 14:50"
+          },
+          "duration": 110,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5218",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 7487,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVeU1UZ2FDZ2kvT2hBQUdnTkpUbEk0SEhDUFBRPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTIxOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 05:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 07:15"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5089",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 69 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 69000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 0
+      },
+      "price": 7609,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVd09Ea2FDZ2k1T3hBQUdnTkpUbEk0SEhDUFBnPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTA4OSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 07:40"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 09:25"
+          },
+          "duration": 105,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1517",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 73 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 73000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 6
+      },
+      "price": 7647,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pSVURFMU1UY2FDZ2pmT3hBQUdnTkpUbEk0SEhDM1BnPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIlFQIiwiMTUxNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 07:25"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 09:10"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5216",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 7802,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVeU1UWWFDZ2o2UEJBQUdnTkpUbEk0SEhEWlB3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTIxNiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 16:00"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 17:45"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5031",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 7802,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVd016RWFDZ2o2UEJBQUdnTkpUbEk0SEhEWlB3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTAzMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 06:20"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 08:00"
+          },
+          "duration": 100,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1515",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        }
+      ],
+      "total_duration": 100,
+      "carbon_emissions": {
+        "this_flight": 70000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 1
+      },
+      "price": 7932,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pSVURFMU1UVWFDZ2o4UFJBQUdnTkpUbEk0SEhEZ1FBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIlFQIiwiMTUxNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 06:35"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 08:35"
+          },
+          "duration": 120,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2402",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 120,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 7962,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJME1ESWFDZ2lhUGhBQUdnTkpUbEk0SEhDQVFRPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjQwMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 04:50"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 06:40"
+          },
+          "duration": 110,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1381",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 70 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 70000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 1
+      },
+      "price": 8228,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pSVURFek9ERWFDZ2lrUUJBQUdnTkpUbEk0SEhDV1F3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIlFQIiwiMTM4MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 03:45"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 05:30"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5205",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 8344,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVeU1EVWFDZ2lZUVJBQUdnTkpUbEk0SEhDUFJBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTIwNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 22:55"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-27 00:40"
+          },
+          "duration": 105,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1134",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 73 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 73000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 6
+      },
+      "price": 8540,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pSVURFeE16UWFDZ2pjUWhBQUdnTkpUbEk0SEhEY1JRPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIlFQIiwiMTEzNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 10:20"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 12:10"
+          },
+          "duration": 110,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1528",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 70 kg"
+          ]
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 70000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 1
+      },
+      "price": 8863,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pSVURFMU1qZ2FDZ2lmUlJBQUdnTkpUbEk0SEhDdFNBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIlFQIiwiMTUyOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 01:00"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 02:50"
+          },
+          "duration": 110,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5293",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 9079,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVeU9UTWFDZ2ozUmhBQUdnTkpUbEk0SEhDUFNnPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTI5MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 22:20"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-27 00:05"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5094",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 9167,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVd09UUWFDZ2pQUnhBQUdnTkpUbEk0SEhEclNnPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTA5NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 08:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 10:15"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5051",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 9692,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVd05URWFDZ2pjU3hBQUdnTkpUbEk0SEhDUFR3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTA1MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 10:15"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 12:05"
+          },
+          "duration": 110,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5237",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 110,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 9692,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVeU16Y2FDZ2pjU3hBQUdnTkpUbEk0SEhDUFR3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTIzNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 17:25"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 19:05"
+          },
+          "duration": 100,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5255",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 100,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 9692,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVeU5UVWFDZ2pjU3hBQUdnTkpUbEk0SEhDUFR3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTI1NSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 10:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 12:35"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2852",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 10812,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJNE5USWFDZ2k4VkJBQUdnTkpUbEk0SEhDaVdBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjg1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 09:15"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 11:15"
+          },
+          "duration": 120,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2604",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 120,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 11001,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJMk1EUWFDZ2o1VlJBQUdnTkpUbEk0SEhEbldRPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjYwNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 08:05"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 10:05"
+          },
+          "duration": 120,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2846",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 120,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 11185,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJNE5EWWFDZ2l4VnhBQUdnTkpUbEk0SEhDb1d3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjg0NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 19:05"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 20:40"
+          },
+          "duration": 95,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6283",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 95,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 13787,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRZeU9ETWFDZ2piYXhBQUdnTkpUbEk0SEhER2NBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNjI4MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 20:15"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 22:00"
+          },
+          "duration": 105,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5376",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        }
+      ],
+      "total_duration": 105,
+      "carbon_emissions": {
+        "this_flight": 71000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 3
+      },
+      "price": 13787,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1kyUlRVek56WWFDZ2piYXhBQUdnTkpUbEk0SEhER2NBPT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIjZFIiwiNTM3NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 23:40"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-27 01:45"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2811",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 14592,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJNE1URWFDZ2lBY2hBQUdnTkpUbEk0SEhDUWR3PT0iLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjgxMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 21:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 23:35"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2642",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 17364,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJMk5ESWFDd2pVaHdFUUFCb0RTVTVTT0J4dzRJMEIiLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjY0MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 16:40"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 18:40"
+          },
+          "duration": 120,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2854",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 120,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 17984,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJNE5UUWFDd2pBakFFUUFCb0RTVTVTT0J4dzZKSUIiLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjg1NCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 19:00"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 21:05"
+          },
+          "duration": 125,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2610",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 125,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 19459,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJMk1UQWFDd2lEbUFFUUFCb0RTVTVTT0J4dzdaNEIiLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjYxMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Kempegowda International Airport Bengaluru",
+            "id": "BLR",
+            "time": "2026-08-26 20:30"
+          },
+          "arrival_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-26 22:40"
+          },
+          "duration": 130,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2850",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 82 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 82000,
+        "typical_for_this_route": 69000,
+        "difference_percent": 19
+      },
+      "price": 19459,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJWVMxWE1GbGtjMFI0Y0c5QlIwaE1iWGRDUnkwdExTMHRMUzB0TFhCcVluZzJNMEZCUVVGQlIzRkxTRlJKUkhJMFlqUkJFZ1pCU1RJNE5UQWFDd2lEbUFFUUFCb0RTVTVTT0J4dzdaNEIiLFtbIkJMUiIsIjIwMjYtMDgtMjYiLCJCT00iLG51bGwsIkFJIiwiMjg1MCJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 6836,
+    "price_level": "high",
+    "typical_price_range": [
+      4600,
+      5900
+    ],
+    "price_history": [
+      [
+        1782239400,
+        4612
+      ],
+      [
+        1782325800,
+        4612
+      ],
+      [
+        1782412200,
+        4612
+      ],
+      [
+        1782498600,
+        4612
+      ],
+      [
+        1782585000,
+        4612
+      ],
+      [
+        1782671400,
+        4612
+      ],
+      [
+        1782757800,
+        4612
+      ],
+      [
+        1782844200,
+        4612
+      ],
+      [
+        1782930600,
+        5595
+      ],
+      [
+        1783017000,
+        5412
+      ],
+      [
+        1783103400,
+        5595
+      ],
+      [
+        1783189800,
+        5783
+      ],
+      [
+        1783276200,
+        5783
+      ],
+      [
+        1783362600,
+        5783
+      ],
+      [
+        1783449000,
+        5595
+      ],
+      [
+        1783535400,
+        5412
+      ],
+      [
+        1783621800,
+        5412
+      ],
+      [
+        1783708200,
+        5412
+      ],
+      [
+        1783794600,
+        5412
+      ],
+      [
+        1783881000,
+        5412
+      ],
+      [
+        1783967400,
+        5884
+      ],
+      [
+        1784053800,
+        5884
+      ],
+      [
+        1784140200,
+        5884
+      ],
+      [
+        1784226600,
+        5884
+      ],
+      [
+        1784313000,
+        5884
+      ],
+      [
+        1784399400,
+        5884
+      ],
+      [
+        1784485800,
+        5884
+      ],
+      [
+        1784572200,
+        5884
+      ],
+      [
+        1784658600,
+        6014
+      ],
+      [
+        1784745000,
+        6014
+      ],
+      [
+        1784831400,
+        6014
+      ],
+      [
+        1784917800,
+        5239
+      ],
+      [
+        1785004200,
+        5239
+      ],
+      [
+        1785090600,
+        5982
+      ],
+      [
+        1785177000,
+        5073
+      ],
+      [
+        1785263400,
+        5073
+      ],
+      [
+        1785349800,
+        5073
+      ],
+      [
+        1785436200,
+        5073
+      ],
+      [
+        1785522600,
+        5239
+      ],
+      [
+        1785609000,
+        5783
+      ],
+      [
+        1785695400,
+        5595
+      ],
+      [
+        1785781800,
+        5595
+      ],
+      [
+        1785868200,
+        5783
+      ],
+      [
+        1785954600,
+        6420
+      ],
+      [
+        1786041000,
+        6420
+      ],
+      [
+        1786127400,
+        6420
+      ],
+      [
+        1786213800,
+        6420
+      ],
+      [
+        1786300200,
+        4459
+      ],
+      [
+        1786386600,
+        4459
+      ],
+      [
+        1786473000,
+        4459
+      ],
+      [
+        1786559400,
+        4411
+      ],
+      [
+        1786645800,
+        4740
+      ],
+      [
+        1786732200,
+        4411
+      ],
+      [
+        1786818600,
+        4411
+      ],
+      [
+        1786905000,
+        4564
+      ],
+      [
+        1786991400,
+        4740
+      ],
+      [
+        1787077800,
+        4879
+      ],
+      [
+        1787164200,
+        4879
+      ],
+      [
+        1787250600,
+        5824
+      ],
+      [
+        1787337000,
+        6349
+      ],
+      [
+        1787423400,
+        6836
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "BLR",
+            "name": "Kempegowda International Airport Bengaluru"
+          },
+          "city": "Bengaluru",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIQIUfZg6v3rdHMVD96D5vTNuXwVO7zsdZy0l7s2uiyV-xuK8nJlokAp_ChoLy9r0vjJWcOOBkEvBI2g",
+          "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFrS_QMxzjURYrYSPiuRW9uR9imYuBAhdE49jwKag7Ucgl0en4CNAtP0hf1MDSGdvhAw2s1-2w71_b-pcIyFOM1F1yMSPQLO5_XlgJc_4"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "BOM",
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai"
+          },
+          "city": "Mumbai",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJ5Q0R5IIxjWsuWKt6lnlBIOlNfNwTqC8yBtOP_uMdzFrluYmn3jZ-6dyEWo6AbIH3x57scrUgF3gvWA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMqVWevN4qkQ8u4HrxtHbv2Oy7UigPckL8bgZUJQWQgjvmJxG7oggYxd2Rw5MwjiBYzZFpr939opSbON9CxkwdD-7DK9it3TPq1ea8pxU"
+        }
+      ]
+    }
+  ]
+}

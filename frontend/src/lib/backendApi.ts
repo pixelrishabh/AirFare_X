@@ -40,16 +40,23 @@ function buildQueryString(params?: Record<string, any>): string {
 }
 
 export const backendApi = {
-  runScraper: () => authedFetch('/api/scraper/run', { method: 'POST' }),
-  computeIndex: () => authedFetch('/api/index/compute', { method: 'POST' }),
+  getHealth: () => authedFetch('/health').then((r) => r.json()),
+  getMLStatus: () => authedFetch('/api/ml/status').then((r) => r.json()),
+  getScraperStatus: () => authedFetch('/api/scraper/status').then((r) => r.json()),
+  getIndexSummary: () => authedFetch('/api/index/summary').then((r) => r.json()),
+  runScraper: () => authedFetch('/api/scraper/run', { method: 'POST' }).then((r) => r.json()),
+  computeIndex: () => authedFetch('/api/index/compute', { method: 'POST' }).then((r) => r.json()),
+  runPipeline: () => authedFetch('/api/pipeline/run', { method: 'POST' }).then((r) => r.json()),
+  refreshData: () => authedFetch('/api/data/refresh', { method: 'POST' }).then((r) => r.json()),
   predict: (payload: unknown) =>
     authedFetch('/api/ml/predict', {
       method: 'POST',
       body: JSON.stringify(payload),
-    }),
+    }).then((r) => r.json()),
 }
 
 export const dashboardApi = {
+  getOverview: () => authedFetch('/api/overview').then((r) => r.json()),
   getIndex: () => authedFetch('/api/index').then((r) => r.json()),
   getRoutes: (params?: { origin?: string; destination?: string }) =>
     authedFetch(`/api/routes${buildQueryString(params)}`).then((r) => r.json()),
@@ -74,4 +81,6 @@ export const dashboardApi = {
   getForecast: (params?: Record<string, any>) =>
     authedFetch(`/api/forecast${buildQueryString(params)}`).then((r) => r.json()),
   getForecastMetrics: () => authedFetch('/api/forecast-metrics').then((r) => r.json()),
+  runPipeline: () => authedFetch('/api/pipeline/run', { method: 'POST' }).then((r) => r.json()),
+  refreshData: () => authedFetch('/api/data/refresh', { method: 'POST' }).then((r) => r.json()),
 }

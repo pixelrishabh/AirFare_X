@@ -17,6 +17,7 @@ import {
   IconDeviceDesktopAnalytics,
   IconHelpCircle,
   IconBuildingCommunity,
+  IconUsers,
 } from '@tabler/icons-react'
 import { type SidebarData } from '../types'
 
@@ -36,76 +37,97 @@ export const sidebarData: SidebarData = {
   navGroups: [
     {
       title: 'Index & Intelligence',
+      roles: ['VIEWER', 'ANALYST', 'ADMIN'],
       items: [
         {
           title: 'Overview',
           url: '/',
           icon: IconLayoutDashboard,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
         {
           title: 'Airfare Index',
           url: '/airfare-index',
           icon: IconChartLine,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
         {
           title: 'Route Analysis',
           url: '/route-analysis',
           icon: IconRoute,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
         {
           title: 'Airline Analysis',
           url: '/airline-analysis',
           icon: IconPlane,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
         {
           title: 'Route Heatmap',
           url: '/route-heatmap',
           icon: IconGridDots,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
         {
           title: 'Lead-Time Analysis',
           url: '/lead-time-analysis',
           icon: IconClockHour4,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
       ],
     },
     {
-      title: 'Data & Verification',
+      title: 'Data & Empirical Verification',
+      roles: ['VIEWER', 'ANALYST', 'ADMIN'],
       items: [
         {
           title: 'Data Explorer',
           url: '/data-explorer',
           icon: IconDatabase,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
         {
           title: 'Backtesting',
           url: '/backtesting',
           icon: IconScale,
+          roles: ['ANALYST', 'ADMIN'],
         },
       ],
     },
     {
-      title: 'Platform & API',
+      title: 'Platform & Operations',
+      roles: ['ANALYST', 'ADMIN'],
       items: [
         {
           title: 'API Documentation',
           url: '/api-docs',
           icon: IconCode,
+          roles: ['ANALYST', 'ADMIN'],
         },
         {
           title: 'System Status',
           url: '/system-status',
           badge: 'Live',
           icon: IconActivity,
+          roles: ['ADMIN'],
+        },
+        {
+          title: 'User Management',
+          url: '/users',
+          icon: IconUsers,
+          roles: ['ADMIN'],
         },
       ],
     },
     {
       title: 'Settings',
+      roles: ['VIEWER', 'ANALYST', 'ADMIN'],
       items: [
         {
           title: 'Settings',
           icon: IconSettings,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
           items: [
             {
               title: 'Profile',
@@ -138,9 +160,9 @@ export const sidebarData: SidebarData = {
           title: 'Help Center',
           url: '/help-center',
           icon: IconHelpCircle,
+          roles: ['VIEWER', 'ANALYST', 'ADMIN'],
         },
       ],
     },
   ],
 }
-

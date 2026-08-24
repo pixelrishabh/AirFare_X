@@ -1,97 +1,113 @@
-from fastapi import Header, HTTPException
-from typing import Optional
+import os
+from fastapi import Header, HTTPException, status
+from typing import Optional, List
 from app.core.supabase_client import supabase_admin
 
-class MockUser:
-    def __init__(self, id: str = "demo-user-1", email: str = "admin.test@airfarex.com", role: str = "ADMIN", name: str = "Demo User"):
+# Production default: DEMO_MODE is FALSE. Real Supabase auth is mandatory.
+DEMO_MODE = os.getenv("DEMO_MODE", "false").lower() in ["true", "1", "yes"]
+
+class AuthenticatedUser:
+    def __init__(self, id: str, email: str, role: str, name: str = ""):
         self.id = id
         self.email = email
-        self.role = role
-        self.user_metadata = {"role": role, "name": name}
+        self.role = role.upper()
+        self.name = name or email.split("@")[0]
+        self.user_metadata = {"role": self.role, "name": self.name}
 
-def parse_demo_role(token: str) -> Optional[str]:
-    t = token.lower()
-    if "admin" in t:
-        return "ADMIN"
-    if "analyst" in t:
-        return "ANALYST"
-    if "viewer" in t:
-        return "VIEWER"
-    if t in ["demo-token", "supabase-token", "test-token", "guest-token", "guest"]:
-        return "ADMIN"
-    return None
-
-async def require_authenticated(authorization: Optional[str] = Header(None)):
+async def get_current_user(authorization: Optional[str] = Header(None)) -> AuthenticatedUser:
     if not authorization:
-        # Default fallback for demo / guest access
-        return MockUser(role="VIEWER", email="guest@airfarex.com", name="Guest Viewer")
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Missing Authorization header"
+        )
     
     token = authorization.replace("Bearer ", "").strip()
-    demo_role = parse_demo_role(token)
-    if demo_role:
-        return MockUser(role=demo_role, email=f"{demo_role.lower()}.test@airfarex.com", name=f"{demo_role.title()} User")
+    if not token:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Empty or invalid Bearer token"
+        )
 
+    # In explicit DEMO_MODE only, permit isolated test tokens
+    if DEMO_MODE:
+        token_lower = token.lower()
+        if "admin" in token_lower:
+            return AuthenticatedUser("demo-admin-1", "admin.test@airfarex.com", "ADMIN", "Administrator")
+        elif "analyst" in token_lower:
+            return AuthenticatedUser("demo-analyst-1", "analyst.test@airfarex.com", "ANALYST", "Data Analyst")
+        elif "viewer" in token_lower or "guest" in token_lower:
+            return AuthenticatedUser("demo-viewer-1", "viewer.test@airfarex.com", "VIEWER", "Guest Viewer")
+
+    # Authoritative production verification via Supabase
     try:
         user_resp = supabase_admin.auth.get_user(token)
         if user_resp and user_resp.user:
-            return user_resp.user
+            user = user_resp.user
+            user_id = user.id
+            email = user.email or ""
+            role = "VIEWER"
+
+            # Query authoritative profiles table for role
+            try:
+                profile = (
+                    supabase_admin.table("profiles")
+                    .select("name, role")
+                    .eq("id", user_id)
+                    .single()
+                    .execute()
+                )
+                if profile.data:
+                    if profile.data.get("role"):
+                        role = profile.data.get("role")
+                    if profile.data.get("name"):
+                        name = profile.data.get("name")
+            except Exception:
+                pass
+
+            if role == "VIEWER" and user.user_metadata and user.user_metadata.get("role"):
+                role = user.user_metadata.get("role")
+
+            return AuthenticatedUser(
+                id=user_id,
+                email=email,
+                role=role,
+                name=user.user_metadata.get("name", email.split("@")[0])
+            )
     except Exception:
-        pass
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Invalid or expired session token"
+        )
 
-    # Safe fallback if Supabase is offline or token is a client-generated demo token
-    return MockUser(role="ADMIN", email="admin.test@airfarex.com", name="Administrator")
+    raise HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED,
+        detail="Authentication verification failed"
+    )
 
-async def optional_authenticated(authorization: Optional[str] = Header(None)):
+async def require_authenticated(authorization: Optional[str] = Header(None)) -> AuthenticatedUser:
+    return await get_current_user(authorization)
+
+async def optional_authenticated(authorization: Optional[str] = Header(None)) -> Optional[AuthenticatedUser]:
     if not authorization:
-        return MockUser(role="VIEWER", email="guest@airfarex.com", name="Guest Viewer")
-    return await require_authenticated(authorization)
+        return None
+    try:
+        return await get_current_user(authorization)
+    except HTTPException:
+        return None
 
 class RoleChecker:
-    def __init__(self, allowed_roles: list[str]):
-        self.allowed_roles = allowed_roles
+    def __init__(self, allowed_roles: List[str]):
+        self.allowed_roles = [r.upper() for r in allowed_roles]
 
-    async def __call__(self, authorization: Optional[str] = Header(None)) -> str:
-        if not authorization:
-            # For open demo access, permit if ADMIN or ANALYST allowed
-            if "ADMIN" in self.allowed_roles or "VIEWER" in self.allowed_roles:
-                return self.allowed_roles[0]
-            raise HTTPException(status_code=401, detail="Missing Authorization header")
-        
-        token = authorization.replace("Bearer ", "").strip()
-        demo_role = parse_demo_role(token)
-        if demo_role:
-            if demo_role in self.allowed_roles:
-                return demo_role
-            raise HTTPException(status_code=403, detail=f"Role {demo_role} does not have required permissions")
+    async def __call__(self, authorization: Optional[str] = Header(None)) -> AuthenticatedUser:
+        user = await get_current_user(authorization)
+        if user.role not in self.allowed_roles:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=f"Access denied. Required roles: {self.allowed_roles}, Current role: {user.role}"
+            )
+        return user
 
-        try:
-            user_resp = supabase_admin.auth.get_user(token)
-            if user_resp and user_resp.user:
-                role = user_resp.user.user_metadata.get("role")
-                try:
-                    profile = (
-                        supabase_admin.table("profiles")
-                        .select("role")
-                        .eq("id", user_resp.user.id)
-                        .single()
-                        .execute()
-                    )
-                    if profile.data and profile.data.get("role"):
-                        role = profile.data.get("role")
-                except Exception:
-                    pass
-
-                role = role or "ADMIN"
-                if role in self.allowed_roles:
-                    return role
-                raise HTTPException(status_code=403, detail="Insufficient permissions")
-        except HTTPException:
-            raise
-        except Exception:
-            # Fallback for offline/demo operation
-            return self.allowed_roles[0]
-
-        return self.allowed_roles[0]
-
-require_role = RoleChecker(["ADMIN", "ANALYST"])
 require_admin = RoleChecker(["ADMIN"])
+require_analyst_or_admin = RoleChecker(["ADMIN", "ANALYST"])
+require_role = require_analyst_or_admin

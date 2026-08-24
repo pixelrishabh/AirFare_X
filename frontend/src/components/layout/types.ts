@@ -1,4 +1,5 @@
 import { type LinkProps } from '@tanstack/react-router'
+import { type Role } from '@/stores/auth-store'
 
 type User = {
   name: string
@@ -16,6 +17,7 @@ type BaseNavItem = {
   title: string
   badge?: string
   icon?: React.ElementType
+  roles?: Role[]
 }
 
 type NavLink = BaseNavItem & {
@@ -33,6 +35,7 @@ type NavItem = NavCollapsible | NavLink
 type NavGroup = {
   title: string
   items: NavItem[]
+  roles?: Role[]
 }
 
 type SidebarData = {

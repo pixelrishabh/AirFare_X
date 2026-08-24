@@ -1,0 +1,26 @@
+{
+  "model_name": "Airfare Predictor (scikit-learn RandomForest Pipeline)",
+  "model_version": "v1.4-rf-pipeline",
+  "algorithm": "RandomForestRegressor(n_estimators=100, max_depth=15, random_state=42)",
+  "preprocessor": "ColumnTransformer(OneHotEncoder(cat) + StandardScaler(num))",
+  "training_samples": 12000,
+  "test_samples": 3000,
+  "target": "price (INR)",
+  "features": [
+    "origin",
+    "destination",
+    "airline",
+    "advance_days",
+    "day_of_week",
+    "month"
+  ],
+  "metrics": {
+    "mae": 288.5,
+    "rmse": 402.49,
+    "r2": 0.9653,
+    "mape_pct": 4.41,
+    "directional_accuracy_pct": 90.45
+  },
+  "trained_at": "2026-08-24T18:19:33.638270Z",
+  "artifact_file": "airfare_model.joblib"
+}

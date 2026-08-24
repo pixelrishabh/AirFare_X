@@ -1,3 +1,4 @@
+import { MLPredictorCard } from '@/components/airfare/ml-predictor-card'
 import { useEffect, useState } from 'react'
 import {
   Card,
@@ -91,6 +92,8 @@ export function RouteAnalysisPage() {
     <>
       <AirfarexHeader title='Route Price Intelligence & Micro-Analysis' />
       <Main className='space-y-6'>
+        {/* Real ML Airfare Prediction Widget */}
+        <MLPredictorCard />
         {/* Page Header & Filters */}
         <div className='flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between border-b pb-4'>
           <div>

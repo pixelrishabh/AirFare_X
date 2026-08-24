@@ -1,0 +1,1326 @@
+{
+  "search_metadata": {
+    "id": "6a8a9b7995e95052915996cb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/egvttHGXiNMXmCL0Gd5Mjg/6a8a9b7995e95052915996cb.json",
+    "markdown_endpoint": "https://serpapi.com/searches/egvttHGXiNMXmCL0Gd5Mjg/6a8a9b7995e95052915996cb.md",
+    "created_at": "2026-08-23 07:04:25 UTC",
+    "processed_at": "2026-08-23 07:04:25 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=in&curr=INR&tfs=CBwQAhoeEgoyMDI2LTA5LTIyagcIARIDREVMcgcIARIDQ0NVQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/egvttHGXiNMXmCL0Gd5Mjg/6a8a9b7995e95052915996cb.html",
+    "prettify_html_file": "https://serpapi.com/searches/egvttHGXiNMXmCL0Gd5Mjg/6a8a9b7995e95052915996cb.prettify",
+    "total_time_taken": 6.0
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "in",
+    "type": "2",
+    "departure_id": "DEL",
+    "arrival_id": "CCU",
+    "outbound_date": "2026-09-22",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "INR"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 20:10"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 22:30"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737",
+          "airline": "SpiceJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+          "travel_class": "Economy",
+          "flight_number": "SG 905",
+          "legroom": "29 in",
+          "extensions": [
+            "Below average legroom (29 in)",
+            "Stream media to your device",
+            "Carbon emissions estimate: 115 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 116000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 18
+      },
+      "price": 7500,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1ZUUnprd05Sb0tDTXc2RUFBYUEwbE9VamdjY0owOSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiU0ciLCI5MDUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 17:05"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 19:25"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1803",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 97 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 97000,
+        "typical_for_this_route": 98000,
+        "difference_percent": -1
+      },
+      "price": 8231,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pSVURFNE1ETWFDZ2luUUJBQUdnTkpUbEk0SEhDWlF3PT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIlFQIiwiMTgwMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 10:15"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 12:30"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 894",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRnNU5Cb0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCI4OTQiXV1d"
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 06:20"
+          },
+          "arrival_airport": {
+            "name": "Jay Prakash Narayan International Airport",
+            "id": "PAT",
+            "time": "2026-09-22 07:55"
+          },
+          "duration": 95,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6245",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 74 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Jay Prakash Narayan International Airport",
+            "id": "PAT",
+            "time": "2026-09-22 12:40"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 13:45"
+          },
+          "duration": 65,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 663",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 52 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 285,
+          "name": "Jay Prakash Narayan International Airport",
+          "id": "PAT"
+        }
+      ],
+      "total_duration": 445,
+      "carbon_emissions": {
+        "this_flight": 127000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 30
+      },
+      "price": 6491,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ3cyUlRZeU5EVjhOa1UyTmpNYUNnamJNaEFBR2dOSlRsSTRISEQvTkE9PSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIlBBVCIsbnVsbCwiNkUiLCI2MjQ1Il0sWyJQQVQiLCIyMDI2LTA5LTIyIiwiQ0NVIixudWxsLCI2RSIsIjY2MyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 16:40"
+          },
+          "arrival_airport": {
+            "name": "Chaudhary Charan Singh International Airport, Terminal 3",
+            "id": "LKO",
+            "time": "2026-09-22 17:45"
+          },
+          "duration": 65,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6440",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 50 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Chaudhary Charan Singh International Airport, Terminal 3",
+            "id": "LKO",
+            "time": "2026-09-22 20:20"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 22:05"
+          },
+          "duration": 105,
+          "airplane": "Airbus A320neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6469",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 76 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 155,
+          "name": "Chaudhary Charan Singh International Airport, Terminal 3",
+          "id": "LKO"
+        }
+      ],
+      "total_duration": 325,
+      "carbon_emissions": {
+        "this_flight": 127000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 30
+      },
+      "price": 6491,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZzAyUlRZME5EQjhOa1UyTkRZNUdnb0kyeklRQUJvRFNVNVNPQnh3L3pRPSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkxLTyIsbnVsbCwiNkUiLCI2NDQwIl0sWyJMS08iLCIyMDI2LTA5LTIyIiwiQ0NVIixudWxsLCI2RSIsIjY0NjkiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 05:55"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 08:15"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1801",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 97 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 97000,
+        "typical_for_this_route": 98000,
+        "difference_percent": -1
+      },
+      "price": 8231,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pSVURFNE1ERWFDZ2luUUJBQUdnTkpUbEk0SEhDWlF3PT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIlFQIiwiMTgwMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 04:45"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 07:00"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 5191",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1kyUlRVeE9URWFDZ2lhUVJBQUdnTkpUbEk0SEhDUlJBPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIjZFIiwiNTE5MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 07:20"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 09:40"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 340",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRNME1Cb0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCIzNDAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 08:30"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 10:45"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 513",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRVeE14b0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCI1MTMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 12:45"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 15:05"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 897",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRnNU54b0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCI4OTciXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 14:25"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 16:45"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 910",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRreE1Cb0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCI5MTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 16:00"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 18:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6415",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1kyUlRZME1UVWFDZ2lhUVJBQUdnTkpUbEk0SEhDUlJBPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIjZFIiwiNjQxNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 17:55"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 20:15"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 2276",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1kyUlRJeU56WWFDZ2lhUVJBQUdnTkpUbEk0SEhDUlJBPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIjZFIiwiMjI3NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 19:30"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 21:45"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6517",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1kyUlRZMU1UY2FDZ2lhUVJBQUdnTkpUbEk0SEhDUlJBPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIjZFIiwiNjUxNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 21:50"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-23 00:05"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 389",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRNNE9Sb0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCIzODkiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 23:30"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-23 01:45"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 247",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 99 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 1
+      },
+      "price": 8346,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1UyUlRJME54b0tDSnBCRUFBYUEwbE9VamdjY0pGRSIsW1siREVMIiwiMjAyNi0wOS0yMiIsIkNDVSIsbnVsbCwiNkUiLCIyNDciXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 06:40"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 08:50"
+          },
+          "duration": 130,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2535",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8504,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RJMU16VWFDZ2k0UWhBQUdnTkpUbEk0SEhDMlJRPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMjUzNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 07:30"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 09:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2705",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8504,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RJM01EVWFDZ2k0UWhBQUdnTkpUbEk0SEhDMlJRPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMjcwNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 09:55"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 12:15"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 1791",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8504,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RFM09URWFDZ2k0UWhBQUdnTkpUbEk0SEhDMlJRPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMTc5MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 16:15"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 18:35"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 1733",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8504,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RFM016TWFDZ2k0UWhBQUdnTkpUbEk0SEhDMlJRPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMTczMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 18:00"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 20:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2707",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8504,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RJM01EY2FDZ2k0UWhBQUdnTkpUbEk0SEhDMlJRPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMjcwNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 21:00"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 23:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 1714",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8504,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RFM01UUWFDZ2k0UWhBQUdnTkpUbEk0SEhDMlJRPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMTcxNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 02:30"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 04:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2702",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8766,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RJM01ESWFDZ2krUkJBQUdnTkpUbEk0SEhESVJ3PT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMjcwMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 19:40"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 21:50"
+          },
+          "duration": 130,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2709",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 8919,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RJM01Ea2FDZ2pYUlJBQUdnTkpUbEk0SEhEb1NBPT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMjcwOSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-09-22 13:00"
+          },
+          "arrival_airport": {
+            "name": "Netaji Subhash Chandra Bose International Airport",
+            "id": "CCU",
+            "time": "2026-09-22 15:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2767",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 114 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 115000,
+        "typical_for_this_route": 98000,
+        "difference_percent": 17
+      },
+      "price": 9722,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYjNnemNGOUZTemN6UmpoQlNXUk1VbmRDUnkwdExTMHRMUzB0TFhaMGRIVXhNa0ZCUVVGQlIzRkxiVE0wVFZNNVZ6QkJFZ1pCU1RJM05qY2FDZ2o2U3hBQUdnTkpUbEk0SEhDdlR3PT0iLFtbIkRFTCIsIjIwMjYtMDktMjIiLCJDQ1UiLG51bGwsIkFJIiwiMjc2NyJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 6491,
+    "price_level": "typical",
+    "typical_price_range": [
+      4900,
+      7100
+    ],
+    "price_history": [
+      [
+        1782153000,
+        6344
+      ],
+      [
+        1782239400,
+        6344
+      ],
+      [
+        1782325800,
+        6379
+      ],
+      [
+        1782412200,
+        6379
+      ],
+      [
+        1782498600,
+        6344
+      ],
+      [
+        1782585000,
+        6344
+      ],
+      [
+        1782671400,
+        6344
+      ],
+      [
+        1782757800,
+        6344
+      ],
+      [
+        1782844200,
+        6322
+      ],
+      [
+        1782930600,
+        6322
+      ],
+      [
+        1783017000,
+        6322
+      ],
+      [
+        1783103400,
+        6322
+      ],
+      [
+        1783189800,
+        6322
+      ],
+      [
+        1783276200,
+        6283
+      ],
+      [
+        1783362600,
+        6283
+      ],
+      [
+        1783449000,
+        6283
+      ],
+      [
+        1783535400,
+        5538
+      ],
+      [
+        1783621800,
+        5538
+      ],
+      [
+        1783708200,
+        6283
+      ],
+      [
+        1783794600,
+        6283
+      ],
+      [
+        1783881000,
+        6283
+      ],
+      [
+        1783967400,
+        6283
+      ],
+      [
+        1784053800,
+        6283
+      ],
+      [
+        1784140200,
+        6283
+      ],
+      [
+        1784226600,
+        6283
+      ],
+      [
+        1784313000,
+        6283
+      ],
+      [
+        1784399400,
+        6283
+      ],
+      [
+        1784485800,
+        6283
+      ],
+      [
+        1784572200,
+        6283
+      ],
+      [
+        1784658600,
+        6283
+      ],
+      [
+        1784745000,
+        6283
+      ],
+      [
+        1784831400,
+        6283
+      ],
+      [
+        1784917800,
+        6283
+      ],
+      [
+        1785004200,
+        6283
+      ],
+      [
+        1785090600,
+        6283
+      ],
+      [
+        1785177000,
+        6283
+      ],
+      [
+        1785263400,
+        6283
+      ],
+      [
+        1785349800,
+        6283
+      ],
+      [
+        1785436200,
+        6283
+      ],
+      [
+        1785522600,
+        6283
+      ],
+      [
+        1785609000,
+        6491
+      ],
+      [
+        1785695400,
+        6491
+      ],
+      [
+        1785781800,
+        6491
+      ],
+      [
+        1785868200,
+        6491
+      ],
+      [
+        1785954600,
+        6491
+      ],
+      [
+        1786041000,
+        6491
+      ],
+      [
+        1786127400,
+        6491
+      ],
+      [
+        1786213800,
+        6491
+      ],
+      [
+        1786300200,
+        6491
+      ],
+      [
+        1786386600,
+        6491
+      ],
+      [
+        1786473000,
+        6491
+      ],
+      [
+        1786559400,
+        6491
+      ],
+      [
+        1786645800,
+        6596
+      ],
+      [
+        1786732200,
+        6596
+      ],
+      [
+        1786818600,
+        6596
+      ],
+      [
+        1786905000,
+        6491
+      ],
+      [
+        1786991400,
+        6491
+      ],
+      [
+        1787077800,
+        6491
+      ],
+      [
+        1787164200,
+        6491
+      ],
+      [
+        1787250600,
+        6491
+      ],
+      [
+        1787337000,
+        6491
+      ],
+      [
+        1787423400,
+        6491
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "DEL",
+            "name": "Indira Gandhi International Airport"
+          },
+          "city": "New Delhi",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "CCU",
+            "name": "Netaji Subhash Chandra Bose International Airport"
+          },
+          "city": "Kolkata",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSecDvisIigWFhZfc6_t7zuRjY6CguemYu7TcnMn8NLYeGQo73sD4Iil-ZVxlK_ySWd8ZbzQ8fsiRsiaQ",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfUYGOAsN4MK8aZeUx8Nsg9Gh9SnPM1QWODebr4jtn0sJ8018bFwzMPTCIPv2sugOgVQ3cj_x--Tk2s5A6IH4vnILmH57hvoEdwL-Dj1k"
+        }
+      ]
+    }
+  ]
+}

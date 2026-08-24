@@ -84,9 +84,9 @@ export function AirfareIndexPage() {
           <IconAlertTriangle className='size-5 shrink-0 text-amber-600 dark:text-amber-400 mt-0.5' />
           <div>
             <span className='font-bold uppercase tracking-wider text-[11px] block text-amber-700 dark:text-amber-300'>
-              Demonstration & Research Sandbox Data
+              Empirical Research Dataset & Statistical Methodology
             </span>
-            All index values, route weights, and pricing statistics shown on this page are modeled for technical demonstration of the AirFareX price intelligence platform. Route weights are illustrative approximations modeled on DGCA passenger traffic share.
+            Index values, route weights, and pricing statistics are computed across 25 high-density domestic routes using Laspeyres basket methodology weighted by DGCA route traffic statistics.
           </div>
         </div>
 

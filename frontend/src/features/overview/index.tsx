@@ -1,3 +1,4 @@
+import { MLPredictorCard } from '@/components/airfare/ml-predictor-card'
 import { useEffect, useState } from 'react'
 import { Link } from '@tanstack/react-router'
 import {
@@ -88,6 +89,8 @@ export function OverviewDashboard() {
     <>
       <AirfarexHeader title='Indian Airfare Price Intelligence' />
       <Main className='space-y-6'>
+        {/* Real ML Airfare Prediction Widget */}
+        <MLPredictorCard />
         {/* Page Header */}
         <div className='flex flex-col gap-2 md:flex-row md:items-center md:justify-between border-b pb-4'>
           <div>

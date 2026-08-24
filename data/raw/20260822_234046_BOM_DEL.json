@@ -1,0 +1,2643 @@
+{
+  "search_metadata": {
+    "id": "6a89e625556ce35ed28f95dc",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/El7TUTd5ZzFbRce6PI9LMQ/6a89e625556ce35ed28f95dc.json",
+    "markdown_endpoint": "https://serpapi.com/searches/El7TUTd5ZzFbRce6PI9LMQ/6a89e625556ce35ed28f95dc.md",
+    "created_at": "2026-08-22 18:10:45 UTC",
+    "processed_at": "2026-08-22 18:10:45 UTC",
+    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=in&curr=INR&tfs=CBwQAhoeEgoyMDI2LTA4LTI1agcIARIDQk9NcgcIARIDREVMQAFIAXABmAEC&tfu=EgIIAQ",
+    "raw_html_file": "https://serpapi.com/searches/El7TUTd5ZzFbRce6PI9LMQ/6a89e625556ce35ed28f95dc.html",
+    "prettify_html_file": "https://serpapi.com/searches/El7TUTd5ZzFbRce6PI9LMQ/6a89e625556ce35ed28f95dc.prettify",
+    "total_time_taken": 1.13
+  },
+  "search_parameters": {
+    "engine": "google_flights",
+    "hl": "en",
+    "gl": "in",
+    "type": "2",
+    "departure_id": "BOM",
+    "arrival_id": "DEL",
+    "outbound_date": "2026-08-25",
+    "travel_class": 1,
+    "adults": 1,
+    "currency": "INR"
+  },
+  "best_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 12:15"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 14:25"
+          },
+          "duration": 130,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6028",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1kyUlRZd01qZ2FDZ2k1TWhBQUdnTkpUbEk0SEhEYk5BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIjZFIiwiNjAyOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 13:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 15:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2677",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJMk56Y2FDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjY3NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 15:55"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 17:55"
+          },
+          "duration": 120,
+          "airplane": "Boeing 737",
+          "airline": "SpiceJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+          "travel_class": "Economy",
+          "flight_number": "SG 816",
+          "legroom": "29 in",
+          "extensions": [
+            "Below average legroom (29 in)",
+            "Stream media to your device",
+            "Carbon emissions estimate: 106 kg"
+          ]
+        }
+      ],
+      "total_duration": 120,
+      "carbon_emissions": {
+        "this_flight": 107000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 2
+      },
+      "price": 6722,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1ZUUnpneE5ob0tDTUkwRUFBYUEwbE9VamdjY1BBMiIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiU0ciLCI4MTYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 14:45"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 17:00"
+          },
+          "duration": 135,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Air India Express",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+          "travel_class": "Economy",
+          "flight_number": "IX 1050",
+          "legroom": "29 in",
+          "extensions": [
+            "Below average legroom (29 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 102 kg"
+          ],
+          "often_delayed_by_over_30_min": true
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 103000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -2
+      },
+      "price": 6724,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pKV0RFd05UQWFDZ2pFTkJBQUdnTkpUbEk0SEhEeU5nPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIklYIiwiMTA1MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 14:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 16:50"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1819",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 93 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 94000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -10
+      },
+      "price": 6912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFNE1Ua2FDZ2lBTmhBQUdnTkpUbEk0SEhDM09BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTgxOSJdXV0="
+    }
+  ],
+  "other_flights": [
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 05:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 07:10"
+          },
+          "duration": 130,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 656",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRZMU5ob0tDTGt5RUFBYUEwbE9VamdjY05zMCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCI2NTYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 10:35"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 13:00"
+          },
+          "duration": 145,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 310",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNeE1Cb0tDTGt5RUFBYUEwbE9VamdjY05zMCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 11:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 13:45"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6827",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1kyUlRZNE1qY2FDZ2k1TWhBQUdnTkpUbEk0SEhEYk5BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIjZFIiwiNjgyNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 13:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 15:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 615",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRZeE5Sb0tDTGt5RUFBYUEwbE9VamdjY05zMCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCI2MTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 14:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 16:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6704",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1kyUlRZM01EUWFDZ2k1TWhBQUdnTkpUbEk0SEhEYk5BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIjZFIiwiNjcwNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 15:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 17:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 349",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNME9Sb0tDTGt5RUFBYUEwbE9VamdjY05zMCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzNDkiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 16:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 18:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 313",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNeE14b0tDTGt5RUFBYUEwbE9VamdjY05zMCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMTMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 16:45"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 18:55"
+          },
+          "duration": 130,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6082",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6457,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1kyUlRZd09ESWFDZ2k1TWhBQUdnTkpUbEk0SEhEYk5BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIjZFIiwiNjA4MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 10:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 12:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2738",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJM016Z2FDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjczOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 11:25"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 13:50"
+          },
+          "duration": 145,
+          "airplane": "Airbus A350",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2952",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 102 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 103000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -2
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU5USWFDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 12:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 14:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2419",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME1Ua2FDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQxOSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 14:05"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 16:20"
+          },
+          "duration": 135,
+          "airplane": "Boeing 787",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2960",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "On-demand video",
+            "Carbon emissions estimate: 88 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 89000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -15
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU5qQWFDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk2MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 15:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 17:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2442",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME5ESWFDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQ0MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 15:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 18:00"
+          },
+          "duration": 150,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 1851",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RFNE5URWFDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMTg1MSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 16:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 19:00"
+          },
+          "duration": 150,
+          "airplane": "Boeing 787",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2687",
+          "legroom": "33 in",
+          "extensions": [
+            "Above average legroom (33 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 105 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6614,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJMk9EY2FDZ2pXTXhBQUdnTkpUbEk0SEhEL05RPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjY4NyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 10:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 12:30"
+          },
+          "duration": 150,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6052",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6615,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1kyUlRZd05USWFDZ2pYTXhBQUdnTkpUbEk0SEhDQU5nPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIjZFIiwiNjA1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 17:20"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 19:45"
+          },
+          "duration": 145,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 315",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6615,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNeE5Sb0tDTmN6RUFBYUEwbE9VamdjY0lBMiIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 23:45"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-26 02:00"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 350",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6615,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNMU1Cb0tDTmN6RUFBYUEwbE9VamdjY0lBMiIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzNTAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 01:50"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 04:10"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737",
+          "airline": "SpiceJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+          "travel_class": "Economy",
+          "flight_number": "SG 803",
+          "legroom": "29 in",
+          "extensions": [
+            "Below average legroom (29 in)",
+            "Stream media to your device",
+            "Carbon emissions estimate: 127 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 127000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 21
+      },
+      "price": 6616,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1ZUUnpnd014b0tDTmd6RUFBYUEwbE9VamdjY0lFMiIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiU0ciLCI4MDMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 18:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 20:30"
+          },
+          "duration": 150,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "SpiceJet",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+          "travel_class": "Economy",
+          "flight_number": "SG 9090",
+          "legroom": "29 in",
+          "extensions": [
+            "Below average legroom (29 in)",
+            "Stream media to your device",
+            "Carbon emissions estimate: 98 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 99000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -6
+      },
+      "price": 6722,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/SG.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pUUnprd09UQWFDZ2pDTkJBQUdnTkpUbEk0SEhEd05nPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlNHIiwiOTA5MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 23:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-26 01:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2614",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6772,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJMk1UUWFDZ2owTkJBQUdnTkpUbEk0SEhDa053PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjYxNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 23:55"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-26 02:15"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 1882",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ],
+          "overnight": true
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 6772,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RFNE9ESWFDZ2owTkJBQUdnTkpUbEk0SEhDa053PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMTg4MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 06:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 08:10"
+          },
+          "duration": 130,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 762",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6825,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRjMk1ob0tDS2sxRUFBYUEwbE9VamdjY053MyIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCI3NjIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 09:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 11:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 355",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 6825,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNMU5Sb0tDS2sxRUFBYUEwbE9VamdjY053MyIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzNTUiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 05:25"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 07:50"
+          },
+          "duration": 145,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1111",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -14
+      },
+      "price": 6912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFeE1URWFDZ2lBTmhBQUdnTkpUbEk0SEhDM09BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTExMSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 11:50"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 14:20"
+          },
+          "duration": 150,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1835",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -14
+      },
+      "price": 6912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFNE16VWFDZ2lBTmhBQUdnTkpUbEk0SEhDM09BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTgzNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 12:55"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 15:20"
+          },
+          "duration": 145,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1127",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -14
+      },
+      "price": 6912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFeE1qY2FDZ2lBTmhBQUdnTkpUbEk0SEhDM09BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTEyNyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 16:35"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 19:10"
+          },
+          "duration": 155,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1825",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 155,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -14
+      },
+      "price": 6912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFNE1qVWFDZ2lBTmhBQUdnTkpUbEk0SEhDM09BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTgyNSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 16:50"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 19:20"
+          },
+          "duration": 150,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1808",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 93 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 94000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -10
+      },
+      "price": 6912,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFNE1EZ2FDZ2lBTmhBQUdnTkpUbEk0SEhDM09BPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTgwOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 09:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 11:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 1890",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 7155,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RFNE9UQWFDZ2p6TnhBQUdnTkpUbEk0SEhDME9nPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMTg5MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 17:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 19:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2910",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 7244,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU1UQWFDZ2pNT0JBQUdnTkpUbEk0SEhDUk93PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjkxMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 07:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 09:20"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1109",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -14
+      },
+      "price": 7275,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFeE1Ea2FDZ2pyT0JBQUdnTkpUbEk0SEhDeU93PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTEwOSJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 10:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 12:20"
+          },
+          "duration": 140,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1834",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 93 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 94000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -10
+      },
+      "price": 7275,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFNE16UWFDZ2pyT0JBQUdnTkpUbEk0SEhDeU93PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTgzNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 18:45"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 21:15"
+          },
+          "duration": 150,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Akasa Air",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+          "travel_class": "Economy",
+          "flight_number": "QP 1120",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Carbon emissions estimate: 89 kg"
+          ]
+        }
+      ],
+      "total_duration": 150,
+      "carbon_emissions": {
+        "this_flight": 90000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -14
+      },
+      "price": 7275,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/QP.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pSVURFeE1qQWFDZ2pyT0JBQUdnTkpUbEk0SEhDeU93PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIlFQIiwiMTEyMCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 07:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 09:10"
+          },
+          "duration": 130,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 301",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 7402,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNd01Sb0tDT281RUFBYUEwbE9VamdjY0xjOCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMDEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 06:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 08:40"
+          },
+          "duration": 130,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2928",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 130,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 7423,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU1qZ2FDZ2ovT1JBQUdnTkpUbEk0SEhETVBBPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjkyOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 18:15"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 20:30"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 6613",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 7717,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1kyUlRZMk1UTWFDZ2lsUEJBQUdnTkpUbEk0SEhDQVB3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIjZFIiwiNjYxMyJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 08:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 10:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 333",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 8085,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNek14b0tDSlUvRUFBYUEwbE9VamdjY0lCQyIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMzMiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 22:15"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-26 00:30"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 651",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 8085,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRZMU1Sb0tDSlUvRUFBYUEwbE9VamdjY0lCQyIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCI2NTEiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 09:05"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 11:20"
+          },
+          "duration": 135,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "Air India Express",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+          "travel_class": "Economy",
+          "flight_number": "IX 2952",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Carbon emissions estimate: 105 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 106000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 1
+      },
+      "price": 8280,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/IX.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pKV0RJNU5USWFDZ2pZUUJBQUdnTkpUbEk0SEhETVF3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIklYIiwiMjk1MiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 21:15"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 23:30"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 102",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 8505,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRFd01ob0tDTGxDRUFBYUEwbE9VamdjY0xkRiIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIxMDIiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 21:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 23:15"
+          },
+          "duration": 135,
+          "airplane": "Boeing 777",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 816",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "In-seat power & USB outlets",
+            "Stream media to your device",
+            "Carbon emissions estimate: 117 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 118000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 12
+      },
+      "price": 8777,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1ZCU1RneE5ob0tDTWxFRUFBYUEwbE9VamdjY05OSCIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiQUkiLCI4MTYiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 21:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 23:45"
+          },
+          "duration": 135,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2748",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 8777,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJM05EZ2FDZ2pKUkJBQUdnTkpUbEk0SEhEVFJ3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjc0OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 22:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-26 00:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2422",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 8777,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME1qSWFDZ2pKUkJBQUdnTkpUbEk0SEhEVFJ3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQyMiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 22:50"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-26 01:15"
+          },
+          "duration": 145,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2986",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 8777,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU9EWWFDZ2pKUkJBQUdnTkpUbEk0SEhEVFJ3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk4NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 08:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 10:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2970",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 9003,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU56QWFDZ2lyUmhBQUdnTkpUbEk0SEhDL1NRPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk3MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 07:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 09:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2424",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 9076,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME1qUWFDZ2owUmhBQUdnTkpUbEk0SEhDTVNnPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQyNCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 08:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 10:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2428",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 9076,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME1qZ2FDZ2owUmhBQUdnTkpUbEk0SEhDTVNnPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQyOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 18:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 20:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2440",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 9076,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME5EQWFDZ2owUmhBQUdnTkpUbEk0SEhDTVNnPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQ0MCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 19:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 21:45"
+          },
+          "duration": 135,
+          "airplane": "Airbus A350",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2408",
+          "legroom": "31 in",
+          "extensions": [
+            "Average legroom (31 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 102 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 103000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -2
+      },
+      "price": 9197,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME1EZ2FDZ2p0UnhBQUdnTkpUbEk0SEhDS1N3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQwOCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 19:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 21:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2426",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 9512,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJME1qWWFDZ2lvU2hBQUdnTkpUbEk0SEhEVFRRPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjQyNiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 19:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 21:15"
+          },
+          "duration": 135,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 317",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 135,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 9660,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNeE54b0tDTHhMRUFBYUEwbE9VamdjY081TyIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMTciXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 18:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 20:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2996",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 9722,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU9UWWFDZ2o2U3hBQUdnTkpUbEk0SEhDdlR3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk5NiJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 20:30"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 22:50"
+          },
+          "duration": 140,
+          "airplane": "Airbus A321",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2988",
+          "legroom": "29 in",
+          "extensions": [
+            "Below average legroom (29 in)",
+            "Wi-Fi for a fee",
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 132 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 133000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 27
+      },
+      "price": 10247,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU9EZ2FDZ2lIVUJBQUdnTkpUbEk0SEhEVFV3PT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk4OCJdXV0="
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 20:20"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 22:45"
+          },
+          "duration": 145,
+          "airplane": "Airbus A321neo",
+          "airline": "IndiGo",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+          "travel_class": "Economy",
+          "flight_number": "6E 330",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "Carbon emissions estimate: 91 kg"
+          ]
+        }
+      ],
+      "total_duration": 145,
+      "carbon_emissions": {
+        "this_flight": 91000,
+        "typical_for_this_route": 105000,
+        "difference_percent": -13
+      },
+      "price": 10395,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/6E.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1UyUlRNek1Cb0tDSnRSRUFBYUEwbE9VamdjY081VSIsW1siQk9NIiwiMjAyNi0wOC0yNSIsIkRFTCIsbnVsbCwiNkUiLCIzMzAiXV1d"
+    },
+    {
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM",
+            "time": "2026-08-25 20:00"
+          },
+          "arrival_airport": {
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL",
+            "time": "2026-08-25 22:20"
+          },
+          "duration": 140,
+          "airplane": "Airbus A320neo",
+          "airline": "Air India",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+          "travel_class": "Economy",
+          "flight_number": "AI 2940",
+          "legroom": "28 in",
+          "extensions": [
+            "Below average legroom (28 in)",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 104 kg"
+          ]
+        }
+      ],
+      "total_duration": 140,
+      "carbon_emissions": {
+        "this_flight": 105000,
+        "typical_for_this_route": 105000,
+        "difference_percent": 0
+      },
+      "price": 12919,
+      "type": "One way",
+      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+      "booking_token": "WyJDalJJYWxaV2VFbGFjV0ZmVkhkQlMzbGtiVUZDUnkwdExTMHRMUzB0ZVdsaWFIY3hORUZCUVVGQlIzRktOV2xWVEZGa2VsZEJFZ1pCU1RJNU5EQWFDZ2ozWkJBQUdnTkpUbEk0SEhDN2FRPT0iLFtbIkJPTSIsIjIwMjYtMDgtMjUiLCJERUwiLG51bGwsIkFJIiwiMjk0MCJdXV0="
+    }
+  ],
+  "price_insights": {
+    "lowest_price": 6457,
+    "price_level": "high",
+    "typical_price_range": [
+      6000,
+      6400
+    ],
+    "price_history": [
+      [
+        1782153000,
+        6083
+      ],
+      [
+        1782239400,
+        6083
+      ],
+      [
+        1782325800,
+        6083
+      ],
+      [
+        1782412200,
+        6083
+      ],
+      [
+        1782498600,
+        5980
+      ],
+      [
+        1782585000,
+        5980
+      ],
+      [
+        1782671400,
+        6083
+      ],
+      [
+        1782757800,
+        6083
+      ],
+      [
+        1782844200,
+        6083
+      ],
+      [
+        1782930600,
+        6374
+      ],
+      [
+        1783017000,
+        6374
+      ],
+      [
+        1783103400,
+        6374
+      ],
+      [
+        1783189800,
+        6374
+      ],
+      [
+        1783276200,
+        6374
+      ],
+      [
+        1783362600,
+        6374
+      ],
+      [
+        1783449000,
+        6374
+      ],
+      [
+        1783535400,
+        6302
+      ],
+      [
+        1783621800,
+        6183
+      ],
+      [
+        1783708200,
+        6183
+      ],
+      [
+        1783794600,
+        6183
+      ],
+      [
+        1783881000,
+        6183
+      ],
+      [
+        1783967400,
+        6183
+      ],
+      [
+        1784053800,
+        6183
+      ],
+      [
+        1784140200,
+        6302
+      ],
+      [
+        1784226600,
+        6302
+      ],
+      [
+        1784313000,
+        6302
+      ],
+      [
+        1784399400,
+        6302
+      ],
+      [
+        1784485800,
+        6302
+      ],
+      [
+        1784572200,
+        6302
+      ],
+      [
+        1784658600,
+        6302
+      ],
+      [
+        1784745000,
+        5947
+      ],
+      [
+        1784831400,
+        6132
+      ],
+      [
+        1784917800,
+        6406
+      ],
+      [
+        1785004200,
+        6406
+      ],
+      [
+        1785090600,
+        6406
+      ],
+      [
+        1785177000,
+        6374
+      ],
+      [
+        1785263400,
+        6019
+      ],
+      [
+        1785349800,
+        6019
+      ],
+      [
+        1785436200,
+        6019
+      ],
+      [
+        1785522600,
+        6019
+      ],
+      [
+        1785609000,
+        6019
+      ],
+      [
+        1785695400,
+        6019
+      ],
+      [
+        1785781800,
+        6019
+      ],
+      [
+        1785868200,
+        6019
+      ],
+      [
+        1785954600,
+        5919
+      ],
+      [
+        1786041000,
+        5919
+      ],
+      [
+        1786127400,
+        5919
+      ],
+      [
+        1786213800,
+        5919
+      ],
+      [
+        1786300200,
+        5919
+      ],
+      [
+        1786386600,
+        5919
+      ],
+      [
+        1786473000,
+        5919
+      ],
+      [
+        1786559400,
+        5784
+      ],
+      [
+        1786645800,
+        5784
+      ],
+      [
+        1786732200,
+        5784
+      ],
+      [
+        1786818600,
+        5784
+      ],
+      [
+        1786905000,
+        5919
+      ],
+      [
+        1786991400,
+        5929
+      ],
+      [
+        1787077800,
+        6169
+      ],
+      [
+        1787164200,
+        6457
+      ],
+      [
+        1787250600,
+        6457
+      ],
+      [
+        1787337000,
+        6457
+      ]
+    ]
+  },
+  "airports": [
+    {
+      "departure": [
+        {
+          "airport": {
+            "id": "BOM",
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai"
+          },
+          "city": "Mumbai",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTJ5Q0R5IIxjWsuWKt6lnlBIOlNfNwTqC8yBtOP_uMdzFrluYmn3jZ-6dyEWo6AbIH3x57scrUgF3gvWA",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRMqVWevN4qkQ8u4HrxtHbv2Oy7UigPckL8bgZUJQWQgjvmJxG7oggYxd2Rw5MwjiBYzZFpr939opSbON9CxkwdD-7DK9it3TPq1ea8pxU"
+        }
+      ],
+      "arrival": [
+        {
+          "airport": {
+            "id": "DEL",
+            "name": "Indira Gandhi International Airport"
+          },
+          "city": "New Delhi",
+          "country": "India",
+          "country_code": "IN",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRqzwP-0z4pH29-KifVzfrxM5wwXx56g3Hoo_ebldH9Fy8a8EjGqPzd3fZqJSKoE5tSIRC2iGJxgqzQ",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7HqndXM-ihFCu1qUKosYR--X_yXSd-0mkQHeSUaG5rkpq5Y6uxD8CMmYUCdngZE7mV0onuN2zv_aVxGGO8xv4FMcpMlWvbXdvJFcemY"
+        }
+      ]
+    }
+  ]
+}
